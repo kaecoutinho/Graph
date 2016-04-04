@@ -12,7 +12,7 @@ _MIT license_
 
 Some classic and essential algorithms are implemented within the project, such as checking if it's a tree, cyclic or a clique.
 
-_NetBeans_ was used as the main IDE but as the source code is all written in _Java_, it's possible to generate a _jar_ file to use as library, copy the whole project to another IDE or even compile through command-line interface.
+_NetBeans_ was used as the main IDE but as the source code is all written in _Java_, it's possible to generate a _jar_ file to use as library, copy the source files to a new project in another IDE or even compile through command-line interface.
 
 ## Usage
 
@@ -72,5 +72,5 @@ There's also a example file provided in the project folder called [_Test.java_](
 
 <ul>
   <li>Raw Graph library</li>
-  <li>First batch of _Graph Theory_ algorithms</li>
+  <li>First batch of <i>Graph Theory</i> algorithms</li>
 </ul>
