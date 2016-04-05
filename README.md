@@ -64,7 +64,7 @@ tempGraph.printInfo();
 
 As you could see, it's extremely easy to learn the library and use it. Also, it may be useful for academic projects and purposes.
 
-There's also a example file provided in the project folder called [_Test.java_](https://github.com/kaiky25/Graph/blob/master/Source%20Code/Graph/src/runtime/Test.java), check it out later on.
+There's also a example file provided in the project folder called [_Test.java_](https://github.com/kaiky25/Graph/blob/master/Source%20Code/src/runtime/Test.java), check it out later on.
 
 ## Changelog
 
