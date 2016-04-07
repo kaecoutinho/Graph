@@ -8,11 +8,11 @@ _MIT license_
 
 ## Introduction
 
-**Graph** is a _Java_ library and project that implements a graph data structure and makes it possible to easily simulate its behavior and definition through its algorithms.
+**Graph** is a _Java_ class library and project that implements a graph data structure and makes it possible to easily simulate its behavior and definition through its algorithms.
 
 Some classic and essential algorithms are implemented within the project, such as checking if it's a tree, cyclic or a clique.
 
-_NetBeans_ was used as the main IDE but as the source code is all written in _Java_, it's possible to generate a _jar_ file to use as library, copy the source files to a new project in another IDE or even compile through command-line interface.
+_NetBeans_ was used as the main IDE but as the source code is all written in _Java_, it's possible to generate a _jar_ file to use as a class library, copy the source files to a new project in another IDE or even compile through command-line interface.
 
 ## Usage
 
@@ -62,7 +62,7 @@ tempGraph = graph.getCompleteGraph();
 tempGraph.printInfo();
 ```
 
-As you could see, it's extremely easy to learn the library and use it. Also, it may be useful for academic projects and purposes.
+As you could see, it's extremely easy to learn how to use and manipulate the data structure. Also, it may be useful for academic projects and purposes.
 
 There's also a example file provided in the project folder called [_Test.java_](https://github.com/kaiky25/Graph/blob/master/Source%20Code/src/runtime/Test.java), check it out later on.
 
