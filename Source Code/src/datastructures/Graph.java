@@ -201,17 +201,17 @@ public class Graph extends Object implements Cloneable, Serializable
         return graph;
     }
     
-    public Graph getSubraphByRemovingSet(Vertex ... vertices) throws Exception
+    public Graph getSubgraphByRemovingSet(Vertex ... vertices) throws Exception
     {
         LinkedList<Vertex> aux = new LinkedList<>();
         for(Integer index = 0; index < vertices.length; index++)
         {
             aux.addLast(vertices[index]);
         }
-        return this.getSubraphByRemovingSet(aux);
+        return this.getSubgraphByRemovingSet(aux);
     }
     
-    public Graph getSubraphByRemovingSet(LinkedList<Vertex> vertices) throws Exception
+    public Graph getSubgraphByRemovingSet(LinkedList<Vertex> vertices) throws Exception
     {
         Graph subgraph = (Graph)SerializationUtils.clone(this);
         String aux = "{";
@@ -261,7 +261,7 @@ public class Graph extends Object implements Cloneable, Serializable
                 subgraph.removeVertex(vertex);
             }
         }
-        subgraph = this.getSubraphByRemovingSet(subgraph.getVertices());
+        subgraph = this.getSubgraphByRemovingSet(subgraph.getVertices());
         subgraph.setName(this.getName() + aux);
         return subgraph;
     }
