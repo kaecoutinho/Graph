@@ -36,7 +36,7 @@ public class Test extends Object
         
         // Calculate a subgraph by removing a set of vertices and print its info
         
-        operationGraph = graph.getSubraphByRemovingSet(vertexA,vertexD);
+        operationGraph = graph.getSubgraphByRemovingSet(vertexA,vertexD);
         operationGraph.printInfo();
         
         // Calculate a subgraph by placing a set of vertices and print its info
