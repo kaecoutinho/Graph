@@ -49,7 +49,7 @@ graph.printInfo();
 
 Graph tempGraph;
 
-tempGraph = graph.getSubraphByRemovingSet(vertexA,vertexD);
+tempGraph = graph.getSubgraphByRemovingSet(vertexA,vertexD);
 tempGraph.printInfo();
 
 tempGraph = graph.getSetsSubgraph(vertexA,vertexD);
